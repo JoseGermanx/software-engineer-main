@@ -1,0 +1,96 @@
+Test 1: Calculate 124
+input:
+1
+124
+
+output:
+128.24
+
+---
+Test 2: Karim Uli Georgina
+input:
+2
+Karim
+Uli
+Georgina
+
+output:
+FriendNames { name1: 'Karim', name2: 'Uli', name3: 'Georgina' }
+
+---
+Test 3: 2001-12-25
+input:
+3
+2001
+12
+25
+
+output:
+Successful
+
+---
+Test 4: Kimi 1998-11-5
+input:
+4
+Kimi
+1998
+11
+5
+
+output:
+Successful
+
+---
+Test 5: Task 5 Pass
+input:
+5
+6
+
+output:
+Pass
+
+---
+Test 6: Task 5 Fail
+input:
+5
+4
+
+output:
+Fail
+
+---
+Test 7: Task 6 Excellent
+input:
+6
+9
+
+output:
+Excellent
+
+---
+Test 8: Task 6 Not Excellent
+input:
+6
+8
+
+output:
+Pass
+
+---
+Test 9: Task 7 Perfect
+input:
+7
+11
+
+output:
+Perfect
+
+---
+Test 10: Task 7 Not Perfect
+input:
+7
+5
+
+output:
+Pass
+

@@ -1,0 +1,48 @@
+Test 1: hello world
+input:
+1
+
+output:
+hello: world
+
+---
+Test 2: tomato sauce
+input:
+2
+tomato
+sauce
+
+output:
+tomato: sauce
+
+---
+Test 3: pizza pineapple
+input:
+3
+pizza
+pineapple
+
+output:
+pizza: pineapple
+
+---
+Test 4: Queens Brooklyn
+input:
+4
+Queens
+Brooklyn
+
+output:
+Booking a taxi from Queens to Brooklyn.
+
+---
+Test 5: Gigi Sami Jack
+input:
+5
+3
+Gigi
+Sami
+Jack
+
+output:
+[ 'Gigi', 'Sami', 'Jack' ]

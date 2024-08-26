@@ -1,0 +1,16 @@
+Test 1: Sum 1 and 6
+input:
+1
+6
+
+output:
+7
+
+---
+Test 2: Sum 11 and 15
+input:
+11
+15
+
+output:
+26

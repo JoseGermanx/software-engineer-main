@@ -1,0 +1,1 @@
+const { sum, average } = require("./functions.js")

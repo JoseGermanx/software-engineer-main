@@ -1,0 +1,33 @@
+Test 1: Grog
+input:
+1
+
+output:
+Player { name: 'Grog' }
+
+---
+Test 2: Grog Level 4
+input:
+2
+
+output:
+Player { name: 'Grog', level: 4 }
+
+---
+Test 3: Grog level info
+input:
+3
+
+output:
+Grog has reached Level 4!
+
+---
+Test 4: Grog level up
+input:
+4
+
+output:
+Grog has reached Level 4!
+undefined
+Grog has reached Level 5!
+undefined
