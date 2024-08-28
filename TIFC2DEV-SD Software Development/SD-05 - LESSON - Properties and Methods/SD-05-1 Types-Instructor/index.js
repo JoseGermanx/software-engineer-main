@@ -3,7 +3,7 @@ let person = {
     "forename": "Kasim",
     "surname": "Chaudry",
     "fullName": function () {
-      return person.forename + " " + person.surname
+      return "El nombre completo es:  " + person.forename + " " + person.surname
     },
     "age": 27,
     "contact": {
@@ -19,3 +19,5 @@ let person = {
     "employed": true,
     "position": "Junior Developer"
   }
+
+  console.log(person.fullName())
