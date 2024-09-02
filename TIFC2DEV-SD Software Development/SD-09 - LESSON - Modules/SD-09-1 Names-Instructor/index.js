@@ -60,16 +60,18 @@ const day = [
   
   let year = new Date().getFullYear()
   
-  let day = new Date().getDay()
+  let currentDay = new Date().getDay()
   
   let date = new Date().getDate()
   
-  let month = new Date().getMonth()
+  let currentMonth = new Date().getMonth()
   
-  function date() {
-    return day[day] + " " + date + ordinal[date] + " " + month[month] + " " + year
+  function getDate() {
+    return day[currentDay] + " " + date + ordinal[date] + " " + month[currentMonth] + " " + year
   }
   
   function printDate() {
-    console.log("Today is " + date())
+    console.log("Today is " + getDate())
   }
+
+  printDate()

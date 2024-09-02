@@ -1,5 +1,7 @@
 import * as arrays from "./arrays.js"
 
+//  arrays es un objeto que incluye lo que se exporta desde ./arrays.js
+
 export function printDate() {
 
   let year = new Date().getFullYear()
